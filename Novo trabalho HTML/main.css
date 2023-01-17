@@ -108,9 +108,24 @@ section h2 {
 }
 
 #Economia {
-    background-color: #fffa65
+    background-color: #fff700
 }
 
 #Economia .articles article a { 
     background-color: orange
+}
+
+#Tecnologia {
+    background-color: black;
+}
+#Tecnologia .articles article a {
+    background-color: aqua;
+}
+
+#Entretenimento {
+    background-color: coral;
+}
+
+#Entretenimento .articles article a {
+    background-color: darkorchid;
 }
