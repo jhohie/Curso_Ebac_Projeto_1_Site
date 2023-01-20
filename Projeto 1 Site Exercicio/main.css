@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 2100px;
+    width: 95%;
+    margin-left: 50px;
+}
+
+
+
+body {
+    background-color: antiquewhite;
+}
+
+header , h2 , h3{
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+
+}
+
+
+
+body , input , textarea { 
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+section h2, button {
+
+    font-weight: normal;
+}
+
+header .container1 {
+    padding: 23px ;
+    background-color: rgb(0, 140, 255);
+    text-align: center;
+}
+
+header .container1 h1 {
+    width: 100%;
+}
+
+
+
+header .container2 {
+    background-color: black;
+    text-align: center;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 23px;
+}
+
+header nav li a {
+    color: rgb(250, 247, 246);
+    text-decoration: none;
+}
+
+header .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container1 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container3 {
+    max-width: 2000px;
+    width: 50%;
+    margin: auto 0 ;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 60px;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-top: 50px ;
+    margin-bottom: 3%;
+    color: black;
+    background-color: orange;
+    
+}
+
+.articles img {
+        height: 40%;
+    margin-top: 30px;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article {
+    width:25%;   
+}
+.container3 {
+    width: 100%;
+    margin-top: 50px ;
+    margin-left: 30px;
+
+}
+
+.Foto {
+    width: 50%;
+    margin: 20px;
+
+}
+
+
+.container3 h2 {
+    margin-top: 20px ;
+    padding: 10px;
+    background-color: pink;
+    color: black;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container3 div {
+    width: 30%;
+    margin-right: 400px ;
+
+    
+}
+
+.Metodos-de-Contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px; 
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.container4 {
+    width: 47%;
+    background-color: aqua;
+    margin-left: 50px;
+}
+
+.container4 h2 {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.social-links img {
+    height: 40px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+    }
+
+    footer { 
+        background-color: #182c61;
+        color: #ecf0f1;
+        padding: 16px 0;
+     
+     }
+
